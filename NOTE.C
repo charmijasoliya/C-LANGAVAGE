@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int amt;
+	clrscr();
+
+	printf("enter amt\n");
+	scanf("%d",&amt);
+
+	printf("the note of 500: %d",amt);
+	amt=amt%500;
+
+	printf("the note of 100: %d",amt);
+	amt=amt%100;
+
+		printf("the note of 50: %d",amt);
+	amt=amt%50;
+
+		printf("the note of 20: %d",amt);
+	amt=amt%20;
+
+		printf("the note of 10: %d",amt);
+	amt=amt%10;
+
+
+		printf("the note of 5: %d",amt);
+	amt=amt%5;
+
+		printf("the note of 2: %d",amt);
+	amt=amt%2;
+
+
+		printf("the note of 1: %d",amt);
+	amt=amt%1;
+
+	getch();
+	return 0;
+
+}
